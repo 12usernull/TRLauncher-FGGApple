@@ -48,9 +48,9 @@ Sit Back And Enjoy!
 - [@ffgapple](https://www.github.com/ffgapple) For Developing it.
 
   
-## Support
+## Question - Errors
 
-You Can Open A Request.
+You Can Open A Issue.
 
   
 ## License
