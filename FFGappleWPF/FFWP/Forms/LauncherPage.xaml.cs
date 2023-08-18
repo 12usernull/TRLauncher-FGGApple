@@ -1581,7 +1581,7 @@ namespace FFWP.Forms
                         {
                             if (nativeGapple.Modules.Online == false)
                             {
-                                MessageBox.Show("triggered");
+                               
                                 var CMP = cmLauncher.CreateProcess(FFWP.Forms.LauncherPage.versionl, option);
 
                                 CMP.Start();
