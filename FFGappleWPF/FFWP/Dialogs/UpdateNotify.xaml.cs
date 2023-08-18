@@ -133,7 +133,7 @@ namespace FFWP.Dialogs
         {
                 try
                 {
-                    using (var mgr = await UpdateManager.GitHubUpdateManager("https://github.com/ffgapple/FFGapple-Launcher"))
+                    using (var mgr = await UpdateManager.GitHubUpdateManager("https://github.com/ffgapple/FFGappleLauncher/"))
                     {
                         if(FFWP.JsonData.Value.CheckUp == true)
                     {
