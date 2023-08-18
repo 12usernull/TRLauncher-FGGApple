@@ -1,0 +1,18 @@
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\bin\Release\nativeGapple.dll
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\bin\Release\nativeGapple.pdb
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.AssemblyReference.cache
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.CoreCompileInputs.cache
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.dll
+C:\Users\htt37ps\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.pdb
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\bin\Release\nativeGapple.dll
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\bin\Release\nativeGapple.pdb
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.AssemblyReference.cache
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.CoreCompileInputs.cache
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.dll
+D:\Backups\30.5.23\source\repos\nativeGapple\nativeGapple\obj\Release\nativeGapple.pdb
+D:\FFGapple Launcher\FFWP\FFWP\bin\Debug\DLL\nativeGapple.dll
+D:\FFGapple Launcher\FFWP\FFWP\bin\Debug\DLL\nativeGapple.pdb
+D:\FFGapple Launcher\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.CoreCompileInputs.cache
+D:\FFGapple Launcher\nativeGapple\nativeGapple\obj\Release\nativeGapple.dll
+D:\FFGapple Launcher\nativeGapple\nativeGapple\obj\Release\nativeGapple.pdb
+D:\FFGapple Launcher\nativeGapple\nativeGapple\obj\Release\nativeGapple.csproj.AssemblyReference.cache
