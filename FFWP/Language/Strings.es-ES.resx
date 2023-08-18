@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addbtt" xml:space="preserve">
+    <value>Agregar perfil</value>
+  </data>
+  <data name="addmod" xml:space="preserve">
+    <value>Añadir modificaciones</value>
+  </data>
+  <data name="addmodinf" xml:space="preserve">
+    <value>Arrastra y suelta los mods que quieras usar.</value>
+  </data>
+  <data name="addprofile" xml:space="preserve">
+    <value>Agregar perfil</value>
+  </data>
+  <data name="addtool" xml:space="preserve">
+    <value>Agregar Perfil</value>
+  </data>
+  <data name="alex" xml:space="preserve">
+    <value>El Perfil Especificado Ya Existe!</value>
+  </data>
+  <data name="alwork" xml:space="preserve">
+    <value>¡FFGapple ya se está ejecutando en segundo plano!</value>
+  </data>
+  <data name="apc" xml:space="preserve">
+    <value>Cambiar la configuración del control parental</value>
+  </data>
+  <data name="autologin" xml:space="preserve">
+    <value>Ingreso automático:</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="bakim" xml:space="preserve">
+    <value>FFGapple actualmente en mantenimiento. ¡Inténtalo de nuevo después de un tiempo!</value>
+  </data>
+  <data name="base64" xml:space="preserve">
+    <value>Su correo electrónico y contraseña están privados del nuevo método de encriptación, vuelva a crear el perfil lo antes posible.</value>
+  </data>
+  <data name="beta" xml:space="preserve">
+    <value>Únete al Programa Beta de FFGapple</value>
+  </data>
+  <data name="bugligapple2332ezwinbusurumevanilyacort" xml:space="preserve">
+    <value>Elige tu versión "Minecraft Vanilla". Estas versiones son las versiones estándar de Minecraft y no se pueden agregar mods posteriormente. Puedes usar Fabric o Forge para usar mods.</value>
+  </data>
+  <data name="build" xml:space="preserve">
+    <value>Construir: </value>
+  </data>
+  <data name="catchno" xml:space="preserve">
+    <value>FFGapple no puede detectar el error, escriba un problema en GitHub.</value>
+  </data>
+  <data name="cevrim" xml:space="preserve">
+    <value>En línea (Mojang / Cuenta de Microsoft)</value>
+  </data>
+  <data name="cevrimdi" xml:space="preserve">
+    <value>Desconectado</value>
+  </data>
+  <data name="customcre" xml:space="preserve">
+    <value>Paquete de recursos de compilación.</value>
+  </data>
+  <data name="customerr" xml:space="preserve">
+    <value>¡Debe haber un directorio especial en su perfil para esto!</value>
+  </data>
+  <data name="customski" xml:space="preserve">
+    <value>Generador de máscaras personalizadas (un jugador)</value>
+  </data>
+  <data name="delerr" xml:space="preserve">
+    <value>¡Debe tener más de 1 perfil para eliminar un perfil!</value>
+  </data>
+  <data name="direr" xml:space="preserve">
+    <value>¡No tienes una serie especialmente configurada en tu perfil!</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>Donar a FFGapple</value>
+  </data>
+  <data name="dortgb" xml:space="preserve">
+    <value>Memoria dedicada de 4 GB (FFGapple Optimizer)</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Descargar!</value>
+  </data>
+  <data name="dpc" xml:space="preserve">
+    <value>Desactivar control parental</value>
+  </data>
+  <data name="dusuk" xml:space="preserve">
+    <value>¡La capacidad de RAM requerida no se alcanza!</value>
+  </data>
+  <data name="edittool" xml:space="preserve">
+    <value>Editar Perfil</value>
+  </data>
+  <data name="ekrantext" xml:space="preserve">
+    <value>Pantalla:</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="epc" xml:space="preserve">
+    <value>Activar control parental</value>
+  </data>
+  <data name="evt" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="fabdik1" xml:space="preserve">
+    <value>FFGapple Launcher es un lanzador de Minecraft de código abierto.</value>
+  </data>
+  <data name="fabdik2" xml:space="preserve">
+    <value>No está afiliado a Microsoft o Mojang.</value>
+  </data>
+  <data name="fabdik3" xml:space="preserve">
+    <value>FFGapple Launcher y sus creadores no son responsables de los posibles problemas causados ​​por las bibliotecas y los paquetes de instalación que contiene.</value>
+  </data>
+  <data name="fabdik4" xml:space="preserve">
+    <value>Presione Sí para indicar que ha leído y entendido este texto y que desea continuar con el programa, presione No para rechazarlo.</value>
+  </data>
+  <data name="fabricdir" xml:space="preserve">
+    <value>¡No puede instalar "Fabric" sin un directorio especial!</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>Inicio rápido</value>
+  </data>
+  <data name="ffupdating" xml:space="preserve">
+    <value>Está utilizando una versión antigua de FFGapple. La nueva versión se está descargando y se instalará. </value>
+  </data>
+  <data name="fillerr" xml:space="preserve">
+    <value>¡Complete los lugares marcados en rojo!</value>
+  </data>
+  <data name="forgeerr" xml:space="preserve">
+    <value>Notificación: dado que los propietarios de Forge Minecraft no desean que la instalación de Forge se automatice, la instalación automática de Forge está deshabilitada, hemos preparado el entorno de instalación de Forge para que lo descargue: https://files.minecraftforge.net/net/minecraftforge/forge/</value>
+  </data>
+  <data name="fresh" xml:space="preserve">
+    <value>¿Quieres hacer una instalación nueva?</value>
+  </data>
+  <data name="fun" xml:space="preserve">
+    <value>FFGapple - Diviértete :)</value>
+  </data>
+  <data name="genistext" xml:space="preserve">
+    <value>Ancho:</value>
+  </data>
+  <data name="giriscrack" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="girismojang" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="grdn" xml:space="preserve">
+    <value>¡Volver!</value>
+  </data>
+  <data name="hyr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ikigb" xml:space="preserve">
+    <value>Memoria dedicada de 2 GB (FFGapple Optimizer)</value>
+  </data>
+  <data name="inthata" xml:space="preserve">
+    <value>¡Comprueba tu conexión!</value>
+  </data>
+  <data name="ipinf" xml:space="preserve">
+    <value>FFGapple Launcher, para mejorar la experiencia del usuario y aumentar la calidad del servicio. Las direcciones IP se pueden almacenar de forma anónima en la memoria. Esto no se realiza para rastrear a los usuarios ni para almacenar datos personales, sino simplemente para limitar la sobrecarga o el mal uso. Las direcciones IP se almacenan temporalmente en la memoria y la privacidad del usuario se protege al máximo. FFGapple Launcher no comparte las direcciones IP recopiladas con terceros ni las utiliza con fines comerciales. Para continuar, confirme su comprensión y haga clic en el botón "Aceptar" para continuar o en el botón "Rechazar" para rechazar y salir del programa.</value>
+  </data>
+  <data name="kabulet" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="kulsoz" xml:space="preserve">
+    <value>Acuerdo del Usuario</value>
+  </data>
+  <data name="legal" xml:space="preserve">
+    <value>Bienvenido al FFGapple Launcher. Antes de comenzar, hay algunas cosas que debes revisar.
+
+FFGapple Minecraft Launcher
+Derechos de autor (C) 2023 / ffgapple
+
+Este programa es software libre: puedes redistribuirlo y/o modificarlo
+bajo los términos de la Licencia Pública General de GNU publicada por
+la Fundación para el Software Libre, en su versión 3 o
+(cuando sea tu elección) cualquier versión posterior.
+
+Este programa se distribuye con la esperanza de que sea útil,
+pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Consulta la
+Licencia Pública General de GNU para obtener más detalles.
+
+Deberías haber recibido una copia de la Licencia Pública General de GNU
+junto con este programa. Si no la has recibido, visita https://www.gnu.org/licenses/.
+
+FFGapple Launcher es un lanzador de Minecraft de código abierto.
+No está afiliado a Microsoft o Mojang.
+El FFGapple Launcher y sus desarrolladores no se hacen responsables de posibles problemas derivados de las bibliotecas y paquetes de instalación incluidos.
+Cualquier acción que no cumpla con la Licencia Pública General de GNU es ilegal y puede dar lugar a acciones legales.</value>
+  </data>
+  <data name="letsdone" xml:space="preserve">
+    <value>Vamos a empezar</value>
+  </data>
+  <data name="loadinf" xml:space="preserve">
+    <value>Mejoramiento...</value>
+  </data>
+  <data name="mainbroke" xml:space="preserve">
+    <value>¡El sistema principal de FFGapple está dañado!</value>
+  </data>
+  <data name="mcacc" xml:space="preserve">
+    <value>Tengo una cuenta de Microsoft</value>
+  </data>
+  <data name="mcvererr" xml:space="preserve">
+    <value>¡Elige una edición de Minecraft!</value>
+  </data>
+  <data name="memred" xml:space="preserve">
+    <value>Esta herramienta de optimización busca la cantidad de memoria en su sistema y asigna suficiente memoria para el juego.</value>
+  </data>
+  <data name="minustool" xml:space="preserve">
+    <value>Borrar Perfil</value>
+  </data>
+  <data name="modfolder" xml:space="preserve">
+    <value>Directorio de mods</value>
+  </data>
+  <data name="mojhata" xml:space="preserve">
+    <value>¡Correo electrónico o contraseña incorrectos especificados en el perfil!</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Avanzar</value>
+  </data>
+  <data name="nick" xml:space="preserve">
+    <value>¡Introduzca un nombre de usuario!</value>
+  </data>
+  <data name="offacc" xml:space="preserve">
+    <value>Inicio de sesión sin conexión (Sistema de perfiles)</value>
+  </data>
+  <data name="onaltigb" xml:space="preserve">
+    <value>Memoria dedicada de 16 GB (FFGapple Optimizer)</value>
+  </data>
+  <data name="orjhesap" xml:space="preserve">
+    <value>¡Tengo una cuenta original!</value>
+  </data>
+  <data name="otuzikigb" xml:space="preserve">
+    <value>Memoria dedicada de 32 GB (FFGapple Optimizer)</value>
+  </data>
+  <data name="pamm" xml:space="preserve">
+    <value>Restringir multijugador de Minecraft</value>
+  </data>
+  <data name="papr" xml:space="preserve">
+    <value>Restringir gestión de perfiles</value>
+  </data>
+  <data name="parenton" xml:space="preserve">
+    <value>Control parental activado 👨‍👩‍👧‍👦</value>
+  </data>
+  <data name="parentset" xml:space="preserve">
+    <value>Configuración de control parental</value>
+  </data>
+  <data name="paset" xml:space="preserve">
+    <value>Restringir acceso a configuración</value>
+  </data>
+  <data name="passnew" xml:space="preserve">
+    <value>Cree una nueva contraseña</value>
+  </data>
+  <data name="passplace" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="passw" xml:space="preserve">
+    <value>Ingrese su contraseña</value>
+  </data>
+  <data name="pc" xml:space="preserve">
+    <value>El control parental permite que sus hijos estén seguros en Internet. Su hijo puede utilizar el FFGapple Launcher dentro de los límites establecidos por usted.</value>
+  </data>
+  <data name="pinghata" xml:space="preserve">
+    <value>¡No se pudo obtener el valor de ping!</value>
+  </data>
+  <data name="place1" xml:space="preserve">
+    <value>Mojang &amp; Microsoft correo electrónico</value>
+  </data>
+  <data name="place2" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="play" xml:space="preserve">
+    <value>Reproducir ▶ </value>
+  </data>
+  <data name="prep" xml:space="preserve">
+    <value>¡Preparando!</value>
+  </data>
+  <data name="privdir" xml:space="preserve">
+    <value>Directorio Personalizado:</value>
+  </data>
+  <data name="prodir" xml:space="preserve">
+    <value>Directorio del perfil</value>
+  </data>
+  <data name="proferr" xml:space="preserve">
+    <value>¡No se pudo agregar el perfil!</value>
+  </data>
+  <data name="profilenametext" xml:space="preserve">
+    <value>Nombre de perfil:</value>
+  </data>
+  <data name="profnamerr" xml:space="preserve">
+    <value>¡Ingrese un nombre de perfil!</value>
+  </data>
+  <data name="profov" xml:space="preserve">
+    <value>Resumen del perfil</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>Memoria dedicada de {0} GB</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Lista para el lanzamiento!</value>
+  </data>
+  <data name="reddet" xml:space="preserve">
+    <value>Rechazar</value>
+  </data>
+  <data name="refreshtool" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="resor" xml:space="preserve">
+    <value>FFGapple - Carga de recursos</value>
+  </data>
+  <data name="sekizgb" xml:space="preserve">
+    <value>Memoria dedicada de 8 GB (FFGapple Optimizer)</value>
+  </data>
+  <data name="selectsk" xml:space="preserve">
+    <value>Piel seleccionada</value>
+  </data>
+  <data name="seled" xml:space="preserve">
+    <value>¡Debes seleccionar primero el perfil que deseas editar!</value>
+  </data>
+  <data name="selver" xml:space="preserve">
+    <value>No se puede iniciar el juego, seleccione una versión para iniciar el juego.</value>
+  </data>
+  <data name="set1" xml:space="preserve">
+    <value>Buscar actualizaciones automáticamente:</value>
+  </data>
+  <data name="set2" xml:space="preserve">
+    <value>Versiones adicionales:</value>
+  </data>
+  <data name="set3" xml:space="preserve">
+    <value>Lengua:</value>
+  </data>
+  <data name="set4" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="setname" xml:space="preserve">
+    <value>Cerrar después de que comience el juego:</value>
+  </data>
+  <data name="setto" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="skinerr" xml:space="preserve">
+    <value>¡Seleccione un archivo válido!</value>
+  </data>
+  <data name="skinok" xml:space="preserve">
+    <value>El paquete "Skin" se ha creado con éxito, puede usar el paquete que creó seleccionando el paquete "Custom Skin Pack" en el juego para aplicarlo. </value>
+  </data>
+  <data name="snapbtt" xml:space="preserve">
+    <value>Mostrar instantáneas:</value>
+  </data>
+  <data name="started" xml:space="preserve">
+    <value>¡Empezado!</value>
+  </data>
+  <data name="startfail" xml:space="preserve">
+    <value>FFGapple no puede iniciar el juego, verifique su FireWall. Si su sistema está bien, póngase en contacto desde GitHub.</value>
+  </data>
+  <data name="suredel" xml:space="preserve">
+    <value>¿Estás seguro de que quieres eliminar el perfil llamado {0}? ¡Esta acción no se puede deshacer!</value>
+  </data>
+  <data name="temelayar" xml:space="preserve">
+    <value>La configuración básica ha cambiado. Reinicia para aplicar los cambios.</value>
+  </data>
+  <data name="tip" xml:space="preserve">
+    <value>FFGapple es un iniciador de Minecraft de código abierto desarrollado por un estudiante de secundaria desde 2021. Si desea contribuir conmigo, puede elegir el monto de la donación que desea de los botones a continuación y contribuir conmigo.</value>
+  </data>
+  <data name="uop" xml:space="preserve">
+    <value>¡El sistema operativo no es compatible con FFGapple!</value>
+  </data>
+  <data name="upbroke" xml:space="preserve">
+    <value>FFGapple - Actualizaciones deshabilitadas</value>
+  </data>
+  <data name="uperr" xml:space="preserve">
+    <value>La nueva versión no se puede instalar. Nos ocuparemos de este problema.</value>
+  </data>
+  <data name="upwont" xml:space="preserve">
+    <value>¡Se encontró una nueva actualización, pero no se puede instalar porque las actualizaciones automáticas están desactivadas!</value>
+  </data>
+  <data name="user1" xml:space="preserve">
+    <value>¡Bienvenido a FFGapple, el iniciador de Minecraft rápido, gratuito y de código abierto!
+
+
+Puede iniciar sesión con Mojang ingresando su correo electrónico y contraseña de Microsoft &amp; Mojang con el campo verde, si no tiene una cuenta, ¡no tiene que preocuparse! ¡Desde el área roja, puede ingresar al juego con el apodo que desee presionando el botón de inicio de sesión sin conexión!</value>
+  </data>
+  <data name="user2" xml:space="preserve">
+    <value>Este es el menú principal para los inicios de sesión del sistema de perfiles,
+
+Puedes añadir tantos perfiles como quieras desde el punto Zona Verde.
+
+Puede eliminar el perfil que seleccionó del punto del área azul.
+
+Puedes editar el perfil que hayas elegido desde el punto con el área morada.
+
+Puede actualizar la lista de perfiles desde el punto con el área naranja.
+
+Puede seleccionar un perfil desde el punto con el área roja.
+
+¡Puedes comenzar a jugar desde el punto con el área amarilla!</value>
+  </data>
+  <data name="user3" xml:space="preserve">
+    <value>¿Qué es agregar un perfil?
+
+
+El sistema FFGapple Profile es una tecnología que te permite iniciar sesión rápidamente en el juego sin perder el tiempo. ¡Con la configuración que establezca, puede abrir rápidamente el juego y disfrutar!
+
+
+FFGapple detectará automáticamente el idioma nativo en su computadora y traducirá todos los textos a su idioma nativo, ¡sin ninguna acción adicional!</value>
+  </data>
+  <data name="user4" xml:space="preserve">
+    <value>¿Qué es la edición de perfil?
+
+
+Puede cambiar la configuración de su perfil como desee. FFGapple traducirá textos a su idioma nativo.</value>
+  </data>
+  <data name="user5" xml:space="preserve">
+    <value>Menú de configuración
+
+Puede acceder a este menú haciendo clic derecho y configuración.
+
+Aquí puede personalizar FFGapple según usted. Eres libre, como quieras :)!</value>
+  </data>
+  <data name="user6" xml:space="preserve">
+    <value>Gracias por usar FFGapple,
+
+Hay mucho más por descubrir, ¿a qué esperas? ¿Empezamos la aventura :)?</value>
+  </data>
+  <data name="userbut" xml:space="preserve">
+    <value>¡Vamos!</value>
+  </data>
+  <data name="usermanual" xml:space="preserve">
+    <value>Manual de usuario</value>
+  </data>
+  <data name="usernameerr" xml:space="preserve">
+    <value>¡Introduzca un nombre de usuario!</value>
+  </data>
+  <data name="usernametext" xml:space="preserve">
+    <value>Nombre de usuario:</value>
+  </data>
+  <data name="userplace" xml:space="preserve">
+    <value>XBOX / Microsoft</value>
+  </data>
+  <data name="verno" xml:space="preserve">
+    <value>¡FFGapple no puede obtener la lista de versiones!</value>
+  </data>
+  <data name="versel" xml:space="preserve">
+    <value>Versión:</value>
+  </data>
+  <data name="w87" xml:space="preserve">
+    <value>Windows 7 son compatibles con FFGapple 3.9. ¿Te gustaría usar esta versión?</value>
+  </data>
+  <data name="w8err" xml:space="preserve">
+    <value>En Windows 8.1, es posible que FFGapple no funcione como se esperaba.</value>
+  </data>
+  <data name="webview" xml:space="preserve">
+    <value>Hay algunos archivos necesarios para que FFGapple funcione, sin ellos FFGapple no puede funcionar. ¿Apruebas la descarga? Archivo: WebView2 de Microsoft</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Perfil seleccionado: </value>
+  </data>
+  <data name="xmlerr" xml:space="preserve">
+    <value>Archivos XML dañados, no se pudo copiar. El programa pasa al modo de reparación.</value>
+  </data>
+  <data name="yuksektext" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+</root>

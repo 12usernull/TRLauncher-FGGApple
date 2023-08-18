@@ -1,0 +1,45 @@
+﻿<Page x:Class="FFWP.Forms.LauncherPage"
+       xmlns:ui="http://schemas.modernwpf.com/2019"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FFWP.Forms"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+     
+      Title="LauncherPage" KeepAlive="True">
+
+    <Grid>
+
+
+
+
+        <TextBlock x:Name="maintext" Text="FFGapple Launcher"
+               Margin="104,13,0,0" FontSize="20" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="365" Width="188" FontWeight="Bold" PreviewMouseDown="maintext_PreviewMouseDown"/>
+        <TextBlock x:Name="ramtext" Margin="104,40,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Height="21" Width="1179" Foreground="White" PreviewMouseDown="ramtext_PreviewMouseDown"><Run Text="For Free"/><Run Language="tr-tr" Text=", Always Safe"/></TextBlock>
+        <Image x:Name="fflogo" HorizontalAlignment="Left" Height="74" Margin="29,15,0,0" VerticalAlignment="Top" Width="68" Source="/Forms/GappleLogoV1.png"/>
+        <Button Content="Play" Margin="0,0,19,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" SizeChanged="Page_SizeChanged"   MinHeight="38" Width="187" Height="19" Click="Button_Click"  x:Name="launchbtt"/>
+        <ComboBox x:Name="pcombo" Margin="0,0,301,10" Width="193" Height="38" HorizontalAlignment="Right" MinHeight="38" VerticalAlignment="Bottom" SelectionChanged="pcombo_SelectionChanged"/>
+        <ui:ProgressBar Height="0" Margin="0,0,19,53" IsIndeterminate="True" ShowError="False" ShowPaused="False" HorizontalAlignment="Right"  Width="806" x:Name="pinfo" VerticalAlignment="Bottom" Visibility="Hidden">
+            <ui:ProgressBar.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF5D17DE" Offset="0"/>
+                </LinearGradientBrush>
+            </ui:ProgressBar.Foreground>
+        </ui:ProgressBar>
+        <TextBlock x:Name="usrinfo" Margin="104,62,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Height="21" Width="1179" Foreground="White" PreviewMouseDown="usrinfo_PreviewMouseDown"><Run Language="tr-tr" Text="And "/><Run Text="For Everyone ❤️"/></TextBlock>
+        <TextBlock x:Name="custominfo" Margin="0,0,-354,62" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16" Height="21" Width="1179" Foreground="White" PreviewMouseDown="usrinfo_PreviewMouseDown" Text="FFNet 1.0" Visibility="Hidden"/>
+        <Ellipse x:Name="pp" Height="42" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,254,8" Stroke="Black"  Width="42" Stretch="Fill">
+            <Ellipse.Fill>
+                <ImageBrush x:Name="imageBrush"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Image x:Name="parental" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,499,9" Width="37" Source="/GUI/belock.png" Height="41" Visibility="Hidden"/>
+
+
+
+
+    </Grid>
+</Page>

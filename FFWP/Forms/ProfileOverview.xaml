@@ -1,0 +1,57 @@
+﻿<Page x:Class="FFWP.Forms.ProfileOverview"
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FFWP.Forms"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProfileOverview">
+
+    <Grid>
+        <ui:CommandBar  Background="Transparent" x:Name="PrimaryCommandBar" FontWeight="UltraBlack">
+            <ui:AppBarButton x:Name="addButton" Icon="Add" Label="Add" Click="addButton_Click" />
+            <ui:AppBarButton x:Name="editButton" Icon="Edit" Label="Edit" Click="editButton_Click"  />
+            <ui:AppBarButton x:Name="deleteButton" Icon="Delete" Label="Delete" Click="deleteButton_Click"  />
+            <ui:AppBarButton x:Name="folderButton" Icon="Folder" Label="Folder" Click="folderButton_Click"  />
+            <ui:AppBarButton x:Name="modButton" Icon="Attach" Label="Add Mods" Click="modButton_Click"  />
+        </ui:CommandBar>
+        <ListView x:Name="mylst" MouseDown="mylst_MouseDown" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="22,40,1,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Height="64">
+                        <Ellipse Height="48" Width="48" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="{Binding img}" />
+                            </Ellipse.Fill>
+                        </Ellipse>
+
+                        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="12,0,0,0">
+                            <TextBlock Grid.Column="0" FontWeight="Bold">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0} ({1})">
+                                        <Binding Path="idjson"/>
+                                        <Binding Path="customversion"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+
+                            <TextBlock Text="{Binding xversion}" Grid.Column="1"/>
+                            <TextBlock Text="{Binding creationdate}" Grid.Column="1"/>
+
+                        </StackPanel>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+        <Image x:Name="parental" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="41" Source="/GUI/belock.png" Height="42" Margin="0,0,23,24"/>
+    </Grid>
+
+
+
+
+
+</Page>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="FFWP.MainWindow"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FFWP"
+        mc:Ignorable="d"
+        Title="FFGapple Launcher" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+
+
+    <ui:NavigationView x:Name="NavigationViewControl" IsBackEnabled="False" PaneTitle="FFGapple Launcher 4.5" IsBackButtonVisible="Collapsed" PaneDisplayMode="LeftCompact" CompactModeThresholdWidth="1007" ExpandedModeThresholdWidth="1007" ItemInvoked="NavigationViewControl_ItemInvoked">
+        
+        <ui:NavigationView.MenuItems>
+            <ui:NavigationViewItem Content="Home"  Icon="Play" x:Name="home"/>
+            <ui:NavigationViewItem Content="Profiles" Icon="People" x:Name="profile"/>
+            <!--<ui:NavigationViewItem Content="Servers" Icon="World" x:Name="servers"/>-->
+            <ui:NavigationViewItem Content="Parental Controls" x:Name="parent" Icon="aDMIN" >
+                <ui:NavigationViewItem.MenuItems>
+                    <ui:NavigationViewItem x:Name="EPC" Content="Enable Parental Control" Icon="Accept" IsEnabled="True" MouseDown="EPC_MouseDown">
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem x:Name="DPC" Content="Disable Parental Control" Icon="Clear" IsEnabled="False" MouseDown="DPC_MouseDown"/>
+                    <ui:NavigationViewItem x:Name="APC" Content="Change Settings For Parental Control" IsEnabled="False" Icon="Edit" MouseDown="APC_MouseDown"/>
+                </ui:NavigationViewItem.MenuItems>
+            </ui:NavigationViewItem>
+          
+
+
+        </ui:NavigationView.MenuItems>
+        <!--<ui:NavigationView.PaneFooter>
+            
+        </ui:NavigationView.PaneFooter>-->
+
+            <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="599*"/>
+                <ColumnDefinition Width="161*"/>
+            </Grid.ColumnDefinitions>
+            <ui:Frame Content="&#xD;&#xA;" x:Name="MainFrame" NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated" SizeChanged="MainFrame_SizeChanged" Margin="-10,0,10,0" Grid.ColumnSpan="2"/>
+        </Grid>
+    </ui:NavigationView>
+</Window>

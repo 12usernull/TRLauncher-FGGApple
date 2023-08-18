@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addbtt" xml:space="preserve">
+    <value>Profili Ekle</value>
+  </data>
+  <data name="addmod" xml:space="preserve">
+    <value>Mod Ekle</value>
+  </data>
+  <data name="addmodinf" xml:space="preserve">
+    <value>Kullanmak istediğiniz modları sürükleyip bırakın.</value>
+  </data>
+  <data name="addprofile" xml:space="preserve">
+    <value>Profil Ekle</value>
+  </data>
+  <data name="addtool" xml:space="preserve">
+    <value>Profil Ekle</value>
+  </data>
+  <data name="alex" xml:space="preserve">
+    <value>Belirtilen Profil Zaten Var!</value>
+  </data>
+  <data name="alwork" xml:space="preserve">
+    <value>FFGapple zaten arka planda çalışıyor!</value>
+  </data>
+  <data name="apc" xml:space="preserve">
+    <value>Ebeveyn kontrolleri ayarlarını değiştir</value>
+  </data>
+  <data name="autologin" xml:space="preserve">
+    <value>Otomatik Giriş Modülünü Deneyin:</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Geri gel</value>
+  </data>
+  <data name="bakim" xml:space="preserve">
+    <value>FFGapple Şu Anda Bakımda. Bir Süre Sonra Tekrar Deneyin!</value>
+  </data>
+  <data name="base64" xml:space="preserve">
+    <value>E-Mail ve Şifreniz yeni şifreleme yönteminden mahrumdur, en kısa zamanda profili yeniden oluşturunuz.</value>
+  </data>
+  <data name="beta" xml:space="preserve">
+    <value>FFGapple Beta Programına Katıl</value>
+  </data>
+  <data name="bugligapple2332ezwinbusurumevanilyacort" xml:space="preserve">
+    <value>Seçtiğiniz sürüm "Minecraft Vanilla" dır. Bu sürümler, stok Minecraft sürümleridir ve sonradan mod eklenemez. Mod kullanmak için Fabric veya Forge kullanabilirsiniz.</value>
+  </data>
+  <data name="build" xml:space="preserve">
+    <value>Yapı: </value>
+  </data>
+  <data name="catchno" xml:space="preserve">
+    <value>FFGapple Hatayı Yakalayamıyor, Lütfen GitHub'da Bir Sorun Yazın!</value>
+  </data>
+  <data name="cevrim" xml:space="preserve">
+    <value>Çevrimiçi (Mojang / Microsoft Hesabı)</value>
+  </data>
+  <data name="cevrimdi" xml:space="preserve">
+    <value>Çevrimdışı</value>
+  </data>
+  <data name="customcre" xml:space="preserve">
+    <value>Kaynak Paketini Oluşturun.</value>
+  </data>
+  <data name="customerr" xml:space="preserve">
+    <value>Bunun için profilinizde özel bir dizin olmalı!</value>
+  </data>
+  <data name="customski" xml:space="preserve">
+    <value>Özel Görünüm Oluşturucu (Tek Oyunculu)</value>
+  </data>
+  <data name="delerr" xml:space="preserve">
+    <value>Bir profili silmek için 1'den fazla profiliniz olmalıdır!</value>
+  </data>
+  <data name="direr" xml:space="preserve">
+    <value>Profilinizde özel olarak belirlenmiş bir dizin yok!</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>FFGapple'a bağış yapın</value>
+  </data>
+  <data name="dortgb" xml:space="preserve">
+    <value>4GB Ayrılmış Bellek (FFGapple Optimize Aracı)</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>İndir!</value>
+  </data>
+  <data name="dpc" xml:space="preserve">
+    <value>Ebeveyn kontrollerini devre dışı bırak</value>
+  </data>
+  <data name="dusuk" xml:space="preserve">
+    <value>Gerekli RAM kapasitesi karşılanmadı!</value>
+  </data>
+  <data name="edittool" xml:space="preserve">
+    <value>Profili Düzenle</value>
+  </data>
+  <data name="ekrantext" xml:space="preserve">
+    <value>Ekran:</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="epc" xml:space="preserve">
+    <value>Ebeveyn kontrollerini etkinleştir</value>
+  </data>
+  <data name="evt" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="fabdik1" xml:space="preserve">
+    <value>FFGapple Launcher, açık kaynaklı bir Minecraft başlatıcısıdır.</value>
+  </data>
+  <data name="fabdik2" xml:space="preserve">
+    <value>Microsoft veya Mojang ile bağlantılı değildir.</value>
+  </data>
+  <data name="fabdik3" xml:space="preserve">
+    <value>FFGapple Launcher ve yapımcıları, içerdiği kütüphaneler ve kurulum paketlerinden kaynaklanabilecek olası sorunlardan sorumlu değildir.</value>
+  </data>
+  <data name="fabdik4" xml:space="preserve">
+    <value>Bu metni okuyup anladığınızı ve programa devam etmek istediğinizi belirtmek için Evet'e, reddetmek için Hayır'a basın.</value>
+  </data>
+  <data name="fabricdir" xml:space="preserve">
+    <value>Özel bir dizin olmadan "Fabric" kuramazsınız!</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>Hızlı Başlat</value>
+  </data>
+  <data name="ffupdating" xml:space="preserve">
+    <value>FFGapple'ın eski bir sürümünü kullanıyorsunuz. Yeni sürüm indiriliyor ve kurulacak.</value>
+  </data>
+  <data name="fillerr" xml:space="preserve">
+    <value>Kırmızı işaretli yerleri doldurunuz!</value>
+  </data>
+  <data name="forgeerr" xml:space="preserve">
+    <value>Bildirim: Forge Minecraft sahipleri Forge kurulumunun otomatik olmasını istemediğinden, otomatik Forge kurulumu devre dışı bırakılmıştır, Forge kurulum ortamını sizler için hazırladık, indirmeniz için: https://files.minecraftforge.net/net/minecraftforge/forge/</value>
+  </data>
+  <data name="fresh" xml:space="preserve">
+    <value>Temiz Kurulum Yapmak İster misiniz?</value>
+  </data>
+  <data name="fun" xml:space="preserve">
+    <value>FFGapple - İyi Eğlenceler :)</value>
+  </data>
+  <data name="genistext" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="giriscrack" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="girismojang" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="grdn" xml:space="preserve">
+    <value>Geri Dön!</value>
+  </data>
+  <data name="hyr" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="ikigb" xml:space="preserve">
+    <value>2GB Ayrılmış Bellek (FFGapple Optimize Aracı)</value>
+  </data>
+  <data name="inthata" xml:space="preserve">
+    <value>Bağlantını Kontrol Et!</value>
+  </data>
+  <data name="ipinf" xml:space="preserve">
+    <value>FFGapple Launcher, kullanıcı deneyimini geliştirmek ve hizmet kalitesini artırmayı hedefler. IP adresleri anonim olarak bellekte saklanabilir. Bu işlem, kullanıcıları izlemek veya kişisel verileri saklamak amacıyla değil, yalnızca aşırı yüklemeyi veya kötüye kullanımı sınırlamak amacıyla gerçekleştirilir. IP adresleri geçici olarak bellekte saklanır ve kullanıcı gizliliği en üst düzeyde korunur. FFGapple Launcher toplanan IP adreslerini üçüncü taraflarla paylaşmaz veya ticari amaçlarla kullanmaz. Devam etmek için anladığınızı onaylayın ve programı sürdürmek için "Tamam" düğmesine tıklayın veya reddetmek ve programdan çıkmak için "Reddet" düğmesine tıklayın.</value>
+  </data>
+  <data name="kabulet" xml:space="preserve">
+    <value>Kabul Et</value>
+  </data>
+  <data name="kulsoz" xml:space="preserve">
+    <value>Kullanıcı sözleşmesi</value>
+  </data>
+  <data name="legal" xml:space="preserve">
+    <value>FFGapple Launcher'a Hoş Geldiniz. Başlamadan önce gözden geçirmeniz gereken bazı şeyler var.
+
+FFGapple Minecraft Launcher
+Telif Hakkı (C) 2023 / ffgapple
+
+Bu program özgür yazılımdır: Onu yeniden dağıtabilir ve/veya değiştirebilirsiniz
+Özgür Yazılım Vakfı tarafından yayınlanan GNU Genel Kamu Lisansı'nın 3. sürümü veya
+(isteğinize bağlı olarak) daha sonraki bir sürümü altında.
+
+Bu program kullanışlı olması umuduyla dağıtılır,
+Ancak HİÇBİR GARANTİ olmaksızın; hatta gizli bir garanti bile olmaksızın
+TİCARETİNİN BELİRLİ BİR AMACA UYGUNLUĞU veya BELİRLİ BİR AMACA UYGUNLUĞU İMA ETMEKSİZİN. Daha fazla ayrıntı için
+GNU Genel Kamu Lisansı'na bakın.
+
+Bu programla birlikte GNU Genel Kamu Lisansı'nın bir kopyasını almanız gerekmektedir
+eğer almadıysanız, https://www.gnu.org/licenses/ adresine bakın.
+
+FFGapple Launcher, açık kaynaklı bir Minecraft başlatıcısıdır.
+Microsoft veya Mojang ile bağlantılı değildir.
+FFGapple Launcher ve yapımcıları, içerdiği kütüphaneler ve kurulum paketlerinden kaynaklanabilecek olası sorunlardan sorumlu değildir.
+GNU Genel Kamu Lisansı'na uymayan herhangi bir işlem yasa dışıdır ve gerekirse yasal işlem başlatılabilir.</value>
+  </data>
+  <data name="letsdone" xml:space="preserve">
+    <value>Hadi başlayalım</value>
+  </data>
+  <data name="loadinf" xml:space="preserve">
+    <value>Optimize Servisi Çalışıyor...</value>
+  </data>
+  <data name="mainbroke" xml:space="preserve">
+    <value>Ana Sistem Hasar Aldı!</value>
+  </data>
+  <data name="mcacc" xml:space="preserve">
+    <value>Microsoft Hesabım Var</value>
+  </data>
+  <data name="mcvererr" xml:space="preserve">
+    <value>Bir Minecraft Sürümü seçin!</value>
+  </data>
+  <data name="memred" xml:space="preserve">
+    <value>Bu optimizasyon aracı, sisteminizdeki bellek miktarını arar ve oyun için yeterli bellek ayırır.</value>
+  </data>
+  <data name="minustool" xml:space="preserve">
+    <value>Profili Sil</value>
+  </data>
+  <data name="modfolder" xml:space="preserve">
+    <value>Mod Dizini ⤵</value>
+  </data>
+  <data name="mojhata" xml:space="preserve">
+    <value>Profilde belirtilen E-Posta veya Şifre Yanlış!</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>İleri git</value>
+  </data>
+  <data name="nick" xml:space="preserve">
+    <value>Bir Kullanıcı Adı Gir!</value>
+  </data>
+  <data name="offacc" xml:space="preserve">
+    <value>Çevrimdışı Giriş (Profil Sistemi)</value>
+  </data>
+  <data name="onaltigb" xml:space="preserve">
+    <value>16GB Ayrılmış Bellek (FFGapple Optimize Aracı)</value>
+  </data>
+  <data name="orjhesap" xml:space="preserve">
+    <value>Orijinal Hesaba Sahibim!</value>
+  </data>
+  <data name="otuzikigb" xml:space="preserve">
+    <value>32GB Ayrılmış Bellek (FFGapple Optimize Aracı)</value>
+  </data>
+  <data name="pamm" xml:space="preserve">
+    <value>Minecraft Multiplayer'ı Kısıtla</value>
+  </data>
+  <data name="papr" xml:space="preserve">
+    <value>Profil Yönetimini Kısıtla</value>
+  </data>
+  <data name="parenton" xml:space="preserve">
+    <value>Ebeveyn kilidi etkin 👨‍👩‍👧‍👦</value>
+  </data>
+  <data name="parentset" xml:space="preserve">
+    <value>Ebeveyn Kontrolü Ayarları</value>
+  </data>
+  <data name="paset" xml:space="preserve">
+    <value>Ayarlar Menüsüne Erişimi Kısıtla</value>
+  </data>
+  <data name="passnew" xml:space="preserve">
+    <value>Yeni Şifre Oluşturun</value>
+  </data>
+  <data name="passplace" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="passw" xml:space="preserve">
+    <value>Şifrenizi Girin</value>
+  </data>
+  <data name="pc" xml:space="preserve">
+    <value>Ebeveyn kontrolleri, çocuklarınızın internette güvende kalmasını sağlar. Çocuğunuz belirlediğiniz sınırlar çerçevesinde FFGapple Launcher'ı kullanabilir.</value>
+  </data>
+  <data name="pinghata" xml:space="preserve">
+    <value>Ping Değeri Alınamadı!</value>
+  </data>
+  <data name="place1" xml:space="preserve">
+    <value>Mojang &amp; Microsoft E-Mail</value>
+  </data>
+  <data name="place2" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="play" xml:space="preserve">
+    <value> Oyna ▶</value>
+  </data>
+  <data name="prep" xml:space="preserve">
+    <value>Hazırlanıyor!</value>
+  </data>
+  <data name="privdir" xml:space="preserve">
+    <value>Özel Dizin:</value>
+  </data>
+  <data name="prodir" xml:space="preserve">
+    <value>Profil dizini</value>
+  </data>
+  <data name="proferr" xml:space="preserve">
+    <value>Profil Eklenemedi!</value>
+  </data>
+  <data name="profilenametext" xml:space="preserve">
+    <value>Profil ismi:</value>
+  </data>
+  <data name="profnamerr" xml:space="preserve">
+    <value>Bir Profil Adı girin!</value>
+  </data>
+  <data name="profov" xml:space="preserve">
+    <value>Profil Genel Bakışı</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>{0} GB Ayrılmış Bellek</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Başlamaya Hazır!</value>
+  </data>
+  <data name="reddet" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="refreshtool" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="resor" xml:space="preserve">
+    <value>FFGapple - Kaynaklar Yükleniyor</value>
+  </data>
+  <data name="sekizgb" xml:space="preserve">
+    <value>8GB Ayrılmış Bellek (FFGapple Optimize Aracı)</value>
+  </data>
+  <data name="selectsk" xml:space="preserve">
+    <value>Skin seç</value>
+  </data>
+  <data name="seled" xml:space="preserve">
+    <value>Düzenlemek istediğin profilini önce seçmelisin!</value>
+  </data>
+  <data name="selver" xml:space="preserve">
+    <value>Oyun Başlatılamadı! Başlatmak İçin Versiyon Seçin!</value>
+  </data>
+  <data name="set1" xml:space="preserve">
+    <value>Güncellemeleri Otomatik Denetle:</value>
+  </data>
+  <data name="set2" xml:space="preserve">
+    <value>Ekstra Versiyonlar:</value>
+  </data>
+  <data name="set3" xml:space="preserve">
+    <value>Dil:</value>
+  </data>
+  <data name="set4" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="setname" xml:space="preserve">
+    <value>Oyun Başladıktan Sonra Kapat:</value>
+  </data>
+  <data name="setto" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="skinerr" xml:space="preserve">
+    <value>Geçerli bir dosya seçin!</value>
+  </data>
+  <data name="skinok" xml:space="preserve">
+    <value>"Skin" paketi başarıyla oluşturuldu, oyun içinde "Custom Skin Pack" paketini seçerek oluşturduğunuz paketi uygulamak için kullanabilirsiniz.</value>
+  </data>
+  <data name="snapbtt" xml:space="preserve">
+    <value>Snapshotlar'ı Göster</value>
+  </data>
+  <data name="started" xml:space="preserve">
+    <value>Başlatıldı!</value>
+  </data>
+  <data name="startfail" xml:space="preserve">
+    <value>FFGapple Oyunu Başlatamıyor, Lütfen Güvenlik Duvarınızı Kontrol Edin. Sisteminiz Sorunsuzsa GitHub'dan İletişime Geçin.</value>
+  </data>
+  <data name="suredel" xml:space="preserve">
+    <value>{0} adlı profilin silinmesinden emin misiniz? Bu işlem geri alınamaz!</value>
+  </data>
+  <data name="temelayar" xml:space="preserve">
+    <value>Temel ayarlarınız değişti, değişikliklerin uygulanması için yeniden başlatın.</value>
+  </data>
+  <data name="tip" xml:space="preserve">
+    <value>FFGapple, 2021 yılından beri bir lise öğrencisi tarafından geliştirilen açık kaynaklı bir Minecraft Launcher'dır. Bana katkıda bulunmak istiyorsanız aşağıdaki butonlardan istediğiniz bağış miktarını seçip bana katkıda bulunabilirsiniz!</value>
+  </data>
+  <data name="uop" xml:space="preserve">
+    <value>İşletim sistemi FFGapple tarafından desteklenmiyor!</value>
+  </data>
+  <data name="upbroke" xml:space="preserve">
+    <value>FFGapple - Güncellemeler Devre Dışı</value>
+  </data>
+  <data name="uperr" xml:space="preserve">
+    <value>Yeni sürüm yüklenemiyor. Bu sorunla ilgileneceğiz.</value>
+  </data>
+  <data name="upwont" xml:space="preserve">
+    <value>Yeni bir güncelleme bulundu, ancak otomatik güncellemeler kapalı olduğu için yüklenemiyor!</value>
+  </data>
+  <data name="user1" xml:space="preserve">
+    <value>Açık kaynak kodlu, ücretsiz, hızlı Minecraft Başlatıcı FFGapple'a hoş geldiniz!
+
+
+Yeşil alana Microsoft &amp; Mojang e-posta ve şifrenizi girerek Mojang ile giriş yapabilirsiniz, hesabınız yoksa endişelenmenize gerek yok! Kırmızı alandan Çevrimdışı giriş butonuna basarak istediğiniz rumuz ile oyuna giriş yapabilirsiniz!</value>
+  </data>
+  <data name="user2" xml:space="preserve">
+    <value>Bu, Profil Sistemi Girişleri için Ana Menüdür,
+
+Yeşil Alan noktasından istediğiniz kadar profil ekleyebilirsiniz.
+
+Seçtiğiniz profili mavi alan noktasından silebilirsiniz.
+
+Mor alanın olduğu noktadan seçmiş olduğunuz profili düzenleyebilirsiniz.
+
+Turuncu alanın olduğu noktadan profil listesini yenileyebilirsiniz.
+
+Kırmızı alanın olduğu noktadan bir profil seçebilirsiniz.
+
+Sarı alanın olduğu noktadan oyunu oynamaya başlayabilirsiniz!</value>
+  </data>
+  <data name="user3" xml:space="preserve">
+    <value>Profil eklemek nedir?
+
+
+FFGapple Profile sistemi, zaman kaybetmeden hızlı bir şekilde oyuna giriş yapmanızı sağlayan bir teknolojidir. Belirlediğiniz ayarlar ile hızlı bir şekilde oyunu açıp keyfini çıkarabilirsiniz!
+
+
+FFGapple bilgisayarınızdaki ana dili otomatik olarak algılar ve tüm metinleri kendi ana dilinize çevirir, ekstra bir işlem yok!</value>
+  </data>
+  <data name="user4" xml:space="preserve">
+    <value>Profil düzenleme nedir?
+
+
+Profil ayarlarınızı dilediğiniz gibi değiştirebilirsiniz. FFGapple, metinleri ana dilinize çevirecektir.</value>
+  </data>
+  <data name="user5" xml:space="preserve">
+    <value>Ayarlar menüsü
+
+Bu menüye sağ tıklayıp ayarlardan ulaşabilirsiniz.
+
+Burada FFGapple'ı kendinize göre özelleştirebilirsiniz. Dilediğiniz gibi, özgürsünüz :)!</value>
+  </data>
+  <data name="user6" xml:space="preserve">
+    <value>FFGapple'ı kullandığınız için teşekkürler,
+
+Keşfedilecek daha çok şey var, daha ne bekliyorsunuz. Maceraya başlayalım mı :) ?</value>
+  </data>
+  <data name="userbut" xml:space="preserve">
+    <value>Hadi gidelim!</value>
+  </data>
+  <data name="usermanual" xml:space="preserve">
+    <value>Kullanım Kılavuzu</value>
+  </data>
+  <data name="usernameerr" xml:space="preserve">
+    <value>Bir Kullanıcı Adı girin!</value>
+  </data>
+  <data name="usernametext" xml:space="preserve">
+    <value>Kullanıcı adı:</value>
+  </data>
+  <data name="userplace" xml:space="preserve">
+    <value>XBOX / Microsoft</value>
+  </data>
+  <data name="verno" xml:space="preserve">
+    <value>FFGapple Sürüm Listesini Alamıyor!</value>
+  </data>
+  <data name="versel" xml:space="preserve">
+    <value>Versiyon Seç:</value>
+  </data>
+  <data name="w87" xml:space="preserve">
+    <value>Windows 7, FFGapple 3.9 tarafından desteklenir. Bu sürümü kullanmak ister misiniz?</value>
+  </data>
+  <data name="w8err" xml:space="preserve">
+    <value>Windows 8.1'de FFGapple beklendiği gibi çalışmayabilir.</value>
+  </data>
+  <data name="webview" xml:space="preserve">
+    <value>FFGapple'ın çalışması için gereken bazı dosyalar vardır, bunlar olmadan FFGapple çalışamaz. İndirmeyi onaylıyor musunuz? Indirilecek Dosya: Microsoft'tan WebView2</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Seçilen Profil: </value>
+  </data>
+  <data name="xmlerr" xml:space="preserve">
+    <value>XML Dosyaları Hasarlı, Kopyalanamadı. Program Onarım Moduna Geçiyor.</value>
+  </data>
+  <data name="yuksektext" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+</root>

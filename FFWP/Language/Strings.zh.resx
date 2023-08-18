@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addbtt" xml:space="preserve">
+    <value>添加配置文件</value>
+  </data>
+  <data name="addmod" xml:space="preserve">
+    <value>添加模组</value>
+  </data>
+  <data name="addmodinf" xml:space="preserve">
+    <value>拖放您要使用的模组。</value>
+  </data>
+  <data name="addprofile" xml:space="preserve">
+    <value>添加配置文件</value>
+  </data>
+  <data name="addtool" xml:space="preserve">
+    <value>添加配置文件</value>
+  </data>
+  <data name="alex" xml:space="preserve">
+    <value>指定的配置文件已经存在！</value>
+  </data>
+  <data name="alwork" xml:space="preserve">
+    <value>FFGapple 已經在後台運行了！</value>
+  </data>
+  <data name="apc" xml:space="preserve">
+    <value>更改家长控制设置</value>
+  </data>
+  <data name="autologin" xml:space="preserve">
+    <value>尝试自动登录模块：</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>回來</value>
+  </data>
+  <data name="bakim" xml:space="preserve">
+    <value>FFGapple 目前正在维护中。过一段时间再试一次！</value>
+  </data>
+  <data name="base64" xml:space="preserve">
+    <value>您的電子郵件和密碼被剝奪了新的加密方法，請盡快重新創建配置文件。</value>
+  </data>
+  <data name="beta" xml:space="preserve">
+    <value>加入FFGapple Beta计划</value>
+  </data>
+  <data name="bugligapple2332ezwinbusurumevanilyacort" xml:space="preserve">
+    <value>选择您的"Minecraft Vanilla"版本。这些版本是Minecraft的原始版本，之后无法添加模组。您可以使用Fabric或Forge来使用模组。</value>
+  </data>
+  <data name="build" xml:space="preserve">
+    <value>结构：</value>
+  </data>
+  <data name="catchno" xml:space="preserve">
+    <value>FFGapple 无法捕获错误，请在 GitHub 上发布问题！</value>
+  </data>
+  <data name="cevrim" xml:space="preserve">
+    <value>在線（Mojang / Microsoft 帳戶）</value>
+  </data>
+  <data name="cevrimdi" xml:space="preserve">
+    <value>離線</value>
+  </data>
+  <data name="customcre" xml:space="preserve">
+    <value>創建資源包。</value>
+  </data>
+  <data name="customerr" xml:space="preserve">
+    <value>為此，您的個人資料中必須有一個特殊目錄！</value>
+  </data>
+  <data name="customski" xml:space="preserve">
+    <value>自定義皮膚生成器（單人遊戲）</value>
+  </data>
+  <data name="delerr" xml:space="preserve">
+    <value>您必須擁有超過 1 個個人資料才能刪除個人資料！</value>
+  </data>
+  <data name="direr" xml:space="preserve">
+    <value>您的個人資料中沒有特別設置的系列！</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>捐贈給 FFGapple</value>
+  </data>
+  <data name="dortgb" xml:space="preserve">
+    <value>4GB 专用内存（FFGapple 优化器）</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>下载！</value>
+  </data>
+  <data name="dpc" xml:space="preserve">
+    <value>关闭家长控制</value>
+  </data>
+  <data name="dusuk" xml:space="preserve">
+    <value>未满足所需的 RAM 容量！</value>
+  </data>
+  <data name="edittool" xml:space="preserve">
+    <value>编辑个人资料</value>
+  </data>
+  <data name="ekrantext" xml:space="preserve">
+    <value>屏幕：</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="epc" xml:space="preserve">
+    <value>启用家长控制</value>
+  </data>
+  <data name="evt" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="fabdik1" xml:space="preserve">
+    <value>FFGapple Launcher 是一个开源的 Minecraft 启动器。</value>
+  </data>
+  <data name="fabdik2" xml:space="preserve">
+    <value>它不隶属于 Microsoft 或 Mojang。</value>
+  </data>
+  <data name="fabdik3" xml:space="preserve">
+    <value>FFGapple Launcher 及其制造商不对由其包含的库和安装包引起的任何可能的问题负责。</value>
+  </data>
+  <data name="fabdik4" xml:space="preserve">
+    <value>按“是”表示您已阅读并理解此文本并希望继续该程序，或按“否”拒绝。</value>
+  </data>
+  <data name="fabricdir" xml:space="preserve">
+    <value>沒有特殊目錄就無法安裝“Fabric”！</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>快速启动</value>
+  </data>
+  <data name="ffupdating" xml:space="preserve">
+    <value>您使用的是舊版本的 FFGapple。正在下載新版本並將安裝。</value>
+  </data>
+  <data name="fillerr" xml:space="preserve">
+    <value>填写红色标记的字段！</value>
+  </data>
+  <data name="forgeerr" xml:space="preserve">
+    <value>通知：由於 Forge Minecraft 的所有者不希望 Forge 安裝自動化，自動 Forge 安裝被禁用，我們為您準備了 Forge 安裝環境，下載：https://files.minecraftforge.net/net/minecraftforge/forge/</value>
+  </data>
+  <data name="fresh" xml:space="preserve">
+    <value>您要进行全新安装吗？</value>
+  </data>
+  <data name="fun" xml:space="preserve">
+    <value>FFGapple - 玩得开心 :)</value>
+  </data>
+  <data name="genistext" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="giriscrack" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="girismojang" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="grdn" xml:space="preserve">
+    <value>回头！</value>
+  </data>
+  <data name="hyr" xml:space="preserve">
+    <value>不是</value>
+  </data>
+  <data name="ikigb" xml:space="preserve">
+    <value>2GB 专用内存（FFGapple 优化器）</value>
+  </data>
+  <data name="inthata" xml:space="preserve">
+    <value>检查您的连接！</value>
+  </data>
+  <data name="ipinf" xml:space="preserve">
+    <value>FFGapple Launcher 旨在改善用户体验和提升服务质量。IP 地址可以匿名地存储在内存中。这不是为了追踪用户或存储个人数据，而仅用于限制过载或滥用。IP 地址会被临时存储在内存中，用户隐私得到最大程度保护。FFGapple Launcher 不会与第三方共享收集的 IP 地址，也不会将其用于商业用途。请确认您的理解，然后单击“确认”按钮继续或单击“拒绝”按钮拒绝并退出程序。</value>
+  </data>
+  <data name="kabulet" xml:space="preserve">
+    <value>接受</value>
+  </data>
+  <data name="kulsoz" xml:space="preserve">
+    <value>用户协议</value>
+  </data>
+  <data name="legal" xml:space="preserve">
+    <value>欢迎使用FFGapple启动器。在开始之前，有一些事情需要您检查。
+
+FFGapple Minecraft启动器
+版权所有（C）2023 / ffgapple
+
+本程序是自由软件：您可以自由地重新发布和/或修改
+根据自由软件基金会发布的GNU通用公共许可证的第3版或
+（根据您的选择）更高版本。
+
+本程序是希望它能有所用处，
+但没有任何担保，甚至没有暗示的担保，
+适销性或适用于特定用途的默示担保。更多详细信息请参阅
+GNU通用公共许可证。
+
+您应该已经收到了GNU通用公共许可证的副本
+连同本程序一起。如果没有，请访问https://www.gnu.org/licenses/。
+
+FFGapple Launcher是一个开源的Minecraft启动器。
+它与Microsoft或Mojang无关。
+FFGapple Launcher及其开发人员不对包含的库和安装包可能引起的任何问题负责。
+任何不符合GNU通用公共许可证的行为都是非法的，可能会导致法律诉讼。</value>
+  </data>
+  <data name="letsdone" xml:space="preserve">
+    <value>让我们开始吧</value>
+  </data>
+  <data name="loadinf" xml:space="preserve">
+    <value>优化服务运行...</value>
+  </data>
+  <data name="mainbroke" xml:space="preserve">
+    <value>主系统损坏！</value>
+  </data>
+  <data name="mcacc" xml:space="preserve">
+    <value>我有一个微软帐户</value>
+  </data>
+  <data name="mcvererr" xml:space="preserve">
+    <value>选择一个 Minecraft 版本！</value>
+  </data>
+  <data name="memred" xml:space="preserve">
+    <value>此优化工具会查找系统中的内存量并为游戏分配足够的内存。</value>
+  </data>
+  <data name="minustool" xml:space="preserve">
+    <value>删除个人资料</value>
+  </data>
+  <data name="modfolder" xml:space="preserve">
+    <value>模组目录⤵</value>
+  </data>
+  <data name="mojhata" xml:space="preserve">
+    <value>配置文件中指定的電子郵件或密碼不正確！</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>直走</value>
+  </data>
+  <data name="nick" xml:space="preserve">
+    <value>输入用户名！</value>
+  </data>
+  <data name="offacc" xml:space="preserve">
+    <value>离线登录（档案系统）</value>
+  </data>
+  <data name="onaltigb" xml:space="preserve">
+    <value>16GB 专用内存（FFGapple 优化器）</value>
+  </data>
+  <data name="orjhesap" xml:space="preserve">
+    <value>我有原始帐户！</value>
+  </data>
+  <data name="otuzikigb" xml:space="preserve">
+    <value>32GB 专用内存（FFGapple 优化器）</value>
+  </data>
+  <data name="pamm" xml:space="preserve">
+    <value>限制Minecraft多人游戏</value>
+  </data>
+  <data name="papr" xml:space="preserve">
+    <value>限制个人资料管理</value>
+  </data>
+  <data name="parenton" xml:space="preserve">
+    <value>家长锁已激活 👨‍👩‍👧‍👦</value>
+  </data>
+  <data name="parentset" xml:space="preserve">
+    <value>家长控制设置</value>
+  </data>
+  <data name="paset" xml:space="preserve">
+    <value>限制访问设置菜单</value>
+  </data>
+  <data name="passnew" xml:space="preserve">
+    <value>创建新密码</value>
+  </data>
+  <data name="passplace" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="passw" xml:space="preserve">
+    <value>输入您的密码</value>
+  </data>
+  <data name="pc" xml:space="preserve">
+    <value>家长控制可以确保您的孩子在互联网上保持安全。您的孩子可以在您设置的限制范围内使用FFGapple Launcher。</value>
+  </data>
+  <data name="pinghata" xml:space="preserve">
+    <value>无法获取 Ping 值！</value>
+  </data>
+  <data name="place1" xml:space="preserve">
+    <value>Mojang 和微软电子邮件</value>
+  </data>
+  <data name="place2" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="play" xml:space="preserve">
+    <value>玩 ▶</value>
+  </data>
+  <data name="prep" xml:space="preserve">
+    <value>准备中！</value>
+  </data>
+  <data name="privdir" xml:space="preserve">
+    <value>私人目录：</value>
+  </data>
+  <data name="prodir" xml:space="preserve">
+    <value>个人资料目录</value>
+  </data>
+  <data name="proferr" xml:space="preserve">
+    <value>添加个人资料失败！</value>
+  </data>
+  <data name="profilenametext" xml:space="preserve">
+    <value>个人资料名称：</value>
+  </data>
+  <data name="profnamerr" xml:space="preserve">
+    <value>输入个人资料名称！</value>
+  </data>
+  <data name="profov" xml:space="preserve">
+    <value>个人资料概览</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>{0} GB 专用内存</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>准备开始！</value>
+  </data>
+  <data name="reddet" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="redel" xml:space="preserve">
+    <value>您确定要删除名为 {0} 的配置文件吗？此操作无法撤销！</value>
+  </data>
+  <data name="refreshtool" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="resor" xml:space="preserve">
+    <value>FFGapple - 加载资源</value>
+  </data>
+  <data name="sekizgb" xml:space="preserve">
+    <value>8GB 专用内存（FFGapple 优化器）</value>
+  </data>
+  <data name="selectsk" xml:space="preserve">
+    <value>選擇皮膚</value>
+  </data>
+  <data name="seled" xml:space="preserve">
+    <value>你需要先选择要编辑的配置文件！</value>
+  </data>
+  <data name="selver" xml:space="preserve">
+    <value>游戏启动失败！选择版本开始！</value>
+  </data>
+  <data name="set1" xml:space="preserve">
+    <value>自动检查更新：</value>
+  </data>
+  <data name="set2" xml:space="preserve">
+    <value>额外版本：</value>
+  </data>
+  <data name="set3" xml:space="preserve">
+    <value>舌头：</value>
+  </data>
+  <data name="set4" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="setname" xml:space="preserve">
+    <value>游戏开始后关闭：</value>
+  </data>
+  <data name="setto" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="skinerr" xml:space="preserve">
+    <value>選擇一個有效的文件！</value>
+  </data>
+  <data name="skinok" xml:space="preserve">
+    <value>“皮膚”包已創建成功，您可以通過在遊戲中選擇“自定義皮膚包”包來應用您創建的包。</value>
+  </data>
+  <data name="snapbtt" xml:space="preserve">
+    <value>显示快照</value>
+  </data>
+  <data name="started" xml:space="preserve">
+    <value>推出！</value>
+  </data>
+  <data name="startfail" xml:space="preserve">
+    <value>FFGapple 无法启动游戏，请检查您的防火墙。如果您的系统正常，请在 GitHub 上联系。</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="temelayar" xml:space="preserve">
+    <value>基本设置已更改。请重新启动以应用更改。</value>
+  </data>
+  <data name="tip" xml:space="preserve">
+    <value>FFGapple 是一名高中生自 2021 年开始开发的开源 Minecraft Launcher。如果您想为我捐款，您可以从下面的按钮中选择您想要的捐款金额并为我捐款！</value>
+  </data>
+  <data name="uop" xml:space="preserve">
+    <value>FFGapple 不支持的操作系统！</value>
+  </data>
+  <data name="upbroke" xml:space="preserve">
+    <value>FFGapple - 已禁用更新</value>
+  </data>
+  <data name="uperr" xml:space="preserve">
+    <value>新版本无法安装。我们会解决这个问题。</value>
+  </data>
+  <data name="upwont" xml:space="preserve">
+    <value>发现了新的更新，但由于自动更新已关闭，无法安装！</value>
+  </data>
+  <data name="user1" xml:space="preserve">
+    <value>您可以通過在綠色區域輸入您的 Microsoft &amp; Mojang 電子郵件和密碼來登錄 Mojang，如果您沒有帳戶，您不必擔心！在紅色區域，您可以通過按離線登錄按鈕以您想要的暱稱進入遊戲！</value>
+  </data>
+  <data name="user2" xml:space="preserve">
+    <value>這是配置文件系統登錄的主菜單，
+
+您可以從綠區點添加任意數量的配置文件。
+
+您可以從藍色區域點中刪除您選擇的配置文件。
+
+您可以從帶有紫色區域的點編輯您選擇的配置文件。
+
+您可以從帶有橙色區域的點刷新配置文件列表。
+
+您可以從帶有紅色區域的點選擇一個配置文件。
+
+您可以從黃色區域的點開始玩遊戲！</value>
+  </data>
+  <data name="user3" xml:space="preserve">
+    <value>什麼是添加配置文件？
+
+
+FFGapple 配置文件系統是一項技術，可讓您快速登錄遊戲而不會浪費您的時間。通過您設置的設置，您可以快速打開遊戲並享受！
+
+
+FFGapple 將自動檢測您計算機上的母語並將所有文本翻譯成您的母語，無需額外操作！</value>
+  </data>
+  <data name="user4" xml:space="preserve">
+    <value>什麼是個人資料編輯？
+
+
+您可以根據需要更改個人資料設置。 FFGapple 會將文本翻譯成您的母語。</value>
+  </data>
+  <data name="user5" xml:space="preserve">
+    <value>設置菜單
+
+您可以通過右鍵單擊和設置訪問此菜單。
+
+在這裡，您可以根據自己的需要自定義 FFGapple。你是自由的，如你所願:)！設置菜單
+
+您可以通過右鍵單擊和設置訪問此菜單。
+
+在這裡，您可以根據自己的需要自定義 FFGapple。你是自由的，如你所願:)！</value>
+  </data>
+  <data name="user6" xml:space="preserve">
+    <value>感謝您使用 FFGapple，
+
+還有更多的發現，你還在等什麼。我們要開始冒險了嗎：）？</value>
+  </data>
+  <data name="userbut" xml:space="preserve">
+    <value>我們走吧！</value>
+  </data>
+  <data name="usermanual" xml:space="preserve">
+    <value>用戶手冊</value>
+  </data>
+  <data name="usernameerr" xml:space="preserve">
+    <value>输入用户名！</value>
+  </data>
+  <data name="usernametext" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="userplace" xml:space="preserve">
+    <value>XBOX / Microsoft</value>
+  </data>
+  <data name="verno" xml:space="preserve">
+    <value>FFGapple 无法获取发布列表！</value>
+  </data>
+  <data name="versel" xml:space="preserve">
+    <value>选择版本：</value>
+  </data>
+  <data name="w87" xml:space="preserve">
+    <value>FFGapple 3.9 支持 Windows 7。你想使用这个版本吗？</value>
+  </data>
+  <data name="w8err" xml:space="preserve">
+    <value>在 Windows 8.1 上，FFGapple 可能无法按预期工作。</value>
+  </data>
+  <data name="webview" xml:space="preserve">
+    <value>FFGapple 需要一些文件才能工作，沒有它們 FFGapple 就無法工作。你同意下載嗎？文件：來自 Microsoft 的 WebView2</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>选择的个人资料：</value>
+  </data>
+  <data name="xmlerr" xml:space="preserve">
+    <value>XML 文件损坏，无法复制。程序进入修复模式。</value>
+  </data>
+  <data name="yuksektext" xml:space="preserve">
+    <value>高度</value>
+  </data>
+</root>

@@ -1,0 +1,117 @@
+﻿<ui:ContentDialog  xmlns:ui="http://schemas.modernwpf.com/2019"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FFWP.Dialogs"
+      xmlns:adorners="http://gu.se/Adorners" x:Class="FFWP.Dialogs.ProfileMenu"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProfileMenu" Foreground="White" Background="Black">
+
+    <Grid Height="275" Width="497">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="365*"/>
+            <ColumnDefinition Width="132*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="0,0,3,0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220*"/>
+                <ColumnDefinition Width="161.022"/>
+                <ColumnDefinition Width="113*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="52"/>
+            </Grid.RowDefinitions>
+            <Canvas Margin="0,0,-1,0" Grid.RowSpan="2" Grid.ColumnSpan="3">
+                <TextBlock Canvas.Left="276" TextWrapping="Wrap" Canvas.Top="14" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"><Run Language="tr-tr" Text="Fabric Minecraft: "/></TextBlock>
+                <TextBlock Canvas.Left="276" TextWrapping="Wrap" Canvas.Top="50" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"><Run Language="tr-tr" Text="Forge Minecraft:"/></TextBlock>
+                <ui:ToggleSwitch x:Name="FabricTOG" Width="44" Canvas.Left="441" Canvas.Top="10"  Background="Black" Toggled="FabricTOG_Toggled" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                <ui:ToggleSwitch x:Name="ForgeTOG" Width="44" Canvas.Left="441" Canvas.Top="46" VerticalAlignment="Top" HorizontalAlignment="Center" Toggled="ForgeTOG_Toggled"/>
+                <ComboBox x:Name="vercombo" Canvas.Left="278" Canvas.Top="159" Width="209" HorizontalAlignment="Center" SelectionChanged="vercombo_SelectionChanged"/>
+                <Button x:Name="addbtt" Content="Save Profile" Canvas.Left="9" Canvas.Top="232" Width="477" Click="addbtt_Click" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF5D17DE" Offset="0"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Separator Canvas.Left="278" Canvas.Top="78" Height="3" Width="209" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock x:Name="developer" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Width="210" HorizontalAlignment="Left" Canvas.Left="280" Canvas.Top="88.19" VerticalAlignment="Top"><Run Text="Developer"/><Run Language="de-de" Text=":"/></TextBlock>
+                <TextBlock x:Name="date" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Width="210" HorizontalAlignment="Left" Canvas.Left="280" Canvas.Top="111" VerticalAlignment="Top"><Run Text="Date"/><Run Language="de-de" Text=":"/></TextBlock>
+                <TextBlock TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Width="210" Canvas.Left="280" Canvas.Top="133" HorizontalAlignment="Center" VerticalAlignment="Top"><Run Text="Publisher"/><Run Language="de-de" Text=":"/></TextBlock>
+                <TextBlock x:Name="ramtxt" Canvas.Left="10" TextWrapping="Wrap" FontSize="18" FontWeight="Bold" Canvas.Top="198" Width="62" HorizontalAlignment="Center" VerticalAlignment="Center"><Run Language="tr-tr" Text="RAM:"/></TextBlock>
+                <Slider x:Name="ramslider" IsSnapToTickEnabled="True" TickFrequency="1"  AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Minimum="1" Orientation="Horizontal" TickPlacement="BottomRight" IsMoveToPointEnabled="True" ValueChanged="ramslider_ValueChanged" Height="32" Canvas.Left="67" Canvas.Top="195" Width="181" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                <TextBlock x:Name="hizli" Canvas.Left="280" TextWrapping="Wrap" Canvas.Top="199" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Width="144"><Run Language="tr-tr" Text="Start Faster"/></TextBlock>
+                <ui:ToggleSwitch x:Name="hizliTOG" Width="44" Canvas.Left="441" Canvas.Top="195"  Background="Black" VerticalAlignment="Top"/>
+            </Canvas>
+            <TextBox x:Name="profilename" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Profil Ismi:" VerticalAlignment="Top" Width="109" IsEnabled="True" IsReadOnly="True" Visibility="Hidden"/>
+            <TextBox x:Name="username" HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" Text="Kullanici Adi:" VerticalAlignment="Top" Width="228" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="serveript" HorizontalAlignment="Left" Margin="10,56,0,0" TextWrapping="Wrap" Text="Server IP" VerticalAlignment="Top" Width="159"/>
+            <TextBox x:Name="serverportt" HorizontalAlignment="Left" Margin="174,56,0,0" TextWrapping="Wrap" Text="Port" VerticalAlignment="Top" Width="44" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="widthtxt" HorizontalAlignment="Left" Margin="10,92,0,0" TextWrapping="Wrap" Text="Genislik" VerticalAlignment="Top" Width="114"/>
+            <TextBox x:Name="heigthtxt" HorizontalAlignment="Left" Margin="124,92,0,0" TextWrapping="Wrap" Text="Yükseklik" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="customdir" HorizontalAlignment="Left" Margin="10,130,0,0" TextWrapping="Wrap" Text="Özel Dizin" VerticalAlignment="Top" Width="159"/>
+            <Button Content=".." Margin="174,130,0,0" Height="32" Width="64" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" VerticalAlignment="Top" Click="Button_Click_2">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5D17DE" Offset="0"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <TextBox x:Name="mail" HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" Text="E-Mail" VerticalAlignment="Top" Width="114"/>
+            <TextBlock HorizontalAlignment="Left" Margin="20,57,0,0" Grid.Row="1" TextWrapping="Wrap" Text="FFNet" VerticalAlignment="Top"/>
+            <Ellipse x:Name="profilnameerror" HorizontalAlignment="Left" Height="16" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="-9,38,0,0" Visibility="Hidden" RenderTransformOrigin="0.543,1.026">
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5D17DE" Offset="0"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="crederror" HorizontalAlignment="Left" Height="16" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="-9,55,0,0" Visibility="Hidden">
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5D17DE" Offset="0"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <Ellipse x:Name="mcvererror" HorizontalAlignment="Left" Height="16" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="106,128,0,0" Grid.Column="2" Visibility="Hidden">
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5D17DE" Offset="0"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Grid>
+
+
+
+
+
+        <PasswordBox x:Name="passtxt"  Width="114"  Margin="126,20,125,223"/>
+        <TextBlock x:Name="passholder" HorizontalAlignment="Left" Margin="131,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Visibility="Hidden"><Run Language="de-de" Text="Sifre"/></TextBlock>
+        <TextBlock x:Name="devdata" HorizontalAlignment="Left" Margin="359,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Grid.ColumnSpan="2"><Run Language="de-de" Text="?!"/></TextBlock>
+        <TextBlock x:Name="datedata" HorizontalAlignment="Left" Margin="359,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Grid.ColumnSpan="2"><Run Language="de-de" Text="?!"/></TextBlock>
+        <TextBlock x:Name="pubdata" HorizontalAlignment="Left" Margin="359,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Grid.ColumnSpan="2"><Run Language="de-de" Text="?!"/></TextBlock>
+        <Button Content="X" Margin="0,-39,3,0" VerticalAlignment="Top" Foreground="White" HorizontalAlignment="Right" Click="Button_Click_3" Width="44" Grid.Column="1"/>
+
+
+
+
+
+
+
+
+
+    </Grid>
+
+
+</ui:ContentDialog>

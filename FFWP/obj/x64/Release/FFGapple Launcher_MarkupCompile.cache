@@ -1,0 +1,20 @@
+﻿FFGapple Launcher
+
+
+winexe
+C#
+.cs
+D:\FFGapple Launcher\FFWP\FFWP\obj\x64\Release\
+FFWP
+none
+false
+TRACE
+D:\FFGapple Launcher\FFWP\FFWP\App.xaml
+20-497434168
+
+35-133879710
+257-2044073931
+Dialogs\AddMod.xaml;Dialogs\AddProfile.xaml;Dialogs\FFPass.xaml;Dialogs\ModeSelector.xaml;Dialogs\ParentalControls.xaml;Dialogs\ParentalSettings.xaml;Dialogs\ProfileMenu.xaml;Dialogs\ServerInfo.xaml;Dialogs\SettingsDialog.xaml;Dialogs\UpdateNotify.xaml;Dialogs\UserAgree.xaml;Forms\Servers.xaml;Setup\SetupPage.xaml;Setup\SetupWindow.xaml;Forms\LauncherPage.xaml;Forms\ProfileOverview.xaml;Forms\Settings.xaml;MainWindow.xaml;Update\UpdateP.xaml;Update\UpdateS.xaml;
+
+False
+

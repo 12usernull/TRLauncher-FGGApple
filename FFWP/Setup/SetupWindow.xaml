@@ -1,0 +1,18 @@
+﻿<Window x:Class="FFWP.Extra_Windows.Setup"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+         ui:WindowHelper.UseModernWindowStyle="True"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FFWP.Extra_Windows"
+        mc:Ignorable="d"
+        Title="Setup" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ui:Frame x:Name="MainFrame" Margin="21,0,67,0"/>
+        <Button Content="▶️" Margin="738,173,0,0" VerticalAlignment="Top" Width="34" Click="Button_Click" Height="44" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="156,161,0,0" VerticalAlignment="Top" Width="68" Source="/Forms/399.ico"/>
+        <TextBlock x:Name="maintext" Text="FFGapple Launcher"
+            Margin="229,177,0,0" FontSize="24" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="365" Width="337" FontWeight="Bold"/>
+    </Grid>
+</Window>
