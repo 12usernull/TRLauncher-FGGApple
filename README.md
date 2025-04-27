@@ -1,11 +1,7 @@
 
 ![Logo](https://ffgapple.github.io/images/GappleLogoV1.png)
 
-    
-# FFGapple Launcher
-
-FFGapple Launcher is a Launcher for Minecraft. It's being Developed By 16 Years Old Young Developer Since 2021. It has tons of features. You Can Add Profiles, Edit Them, Install Mods, And More.
-
+   
 
 ![MainMenu](https://ffgapple.github.io/images/mainmenu.PNG)
 
